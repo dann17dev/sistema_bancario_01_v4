@@ -1,39 +1,34 @@
 # Sistema Bancário em Python
 
-Este projeto é uma atualização de um sistema bancário simples desenvolvido em Python como parte do desafio da DIO (Digital Innovation One). O objetivo deste sistema é gerenciar clientes e suas contas, permitindo realizar transações como depósitos e saques, além de gerar relatórios de atividades financeiras.
+## Descrição
 
-## Desafios
+Este projeto é uma atualização do sistema bancário desenvolvido como parte do desafio da DIO (Digital Innovation One). O objetivo é implementar um sistema bancário que permita a criação de clientes, contas, e a realização de transações como depósitos, saques e geração de extratos. 
 
-O projeto abrange os seguintes desafios:
+## Funcionalidades
 
-1. **Modelagem de classes**: Implementar a modelagem de clientes e operações bancárias, utilizando programação orientada a objetos (POO).
-2. **Persistência de dados**: Atualizar a implementação do sistema para armazenar os dados de clientes e contas bancárias em objetos, ao invés de dicionários, seguindo um modelo de classes UML.
-3. **Gerenciamento de transações**: Adicionar funcionalidades para gerenciar transações de depósito e saque, garantindo que as operações sejam realizadas de forma segura.
-4. **Aplicação de decoradores**: Implementar decoradores para adicionar funcionalidades adicionais às funções do sistema, como logging de transações.
-5. **Iteradores e geradores**: Utilizar iteradores e geradores para facilitar a navegação e a geração de relatórios das transações.
+- Cadastro de clientes e contas bancárias
+- Realização de depósitos e saques
+- Exibição de extrato bancário
+- Registro de transações com histórico
+- Relatórios detalhados de transações
 
-## Funcionalidades Implementadas
+## Melhorias Implementadas
 
-- **Cadastro de Clientes**: Permite cadastrar novos clientes com informações como nome, CPF e endereço.
-- **Criação de Contas**: Possibilita a criação de contas bancárias associadas a clientes.
-- **Depósitos e Saques**: Realiza depósitos e saques, com validações de saldo e limite de saques.
-- **Extrato de Transações**: Gera um extrato com as transações realizadas em cada conta.
-- **Log de Transações**: Implementa um sistema de log para registrar todas as transações realizadas.
-- **Relatório de Transações**: Gera relatórios detalhados das transações realizadas.
-
-## Melhoria Contínua
-
-- **Interface do Menu**: O menu foi aprimorado para melhorar a experiência do usuário.
-- **Validações Aprimoradas**: Foram adicionadas validações adicionais para garantir a integridade das transações.
-- **Documentação**: O código foi documentado para facilitar a compreensão e a manutenção.
+- **Uso de Programação Orientada a Objetos (POO)**: O sistema foi modelado utilizando classes para representar Clientes, Contas e Transações.
+- **Decoradores**: Implementação de um decorador para logar transações realizadas.
+- **Iteradores e Geradores**: Adição de um iterador para percorrer contas e geração de relatórios de forma mais eficiente.
+- **Tratamento de Erros**: Implementação de mensagens de erro amigáveis para melhorar a experiência do usuário.
 
 ## Como Executar
 
-Para executar o sistema, certifique-se de ter o Python instalado em sua máquina. Depois, siga os passos abaixo:
+### Pré-requisitos
 
-1. Clone este repositório.
-2. Navegue até o diretório do projeto.
-3. Execute o script principal:
+- Python 3.x
+- Bibliotecas padrão (não são necessárias instalações adicionais)
+
+### Clonando o Repositório
+
+Para clonar este repositório, utilize o seguinte comando:
 
 ```bash
-python sistema_bancario.py
+git clone https://github.com/dann17dev/sistema_bancario_01_v4.git
